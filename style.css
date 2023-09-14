@@ -1,0 +1,330 @@
+@import url('https://fonts.googleapis.com/css2?family=Gasoek+One&family=Montez&family=Montserrat:wght@300&family=Raleway&family=Sora&family=Tektur:wght@500&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+
+
+}
+
+:root {
+    --blueback: #0B2447;
+    --plain-text: #113373;
+    --textoff: hsla(36, 31%, 90%, 1);
+    --mustard: #ffb400;
+    --icons: rgba(67, 103, 153, 0.566);
+    --iconsdown: #d63384;
+    --greybg: rgb(215, 215, 215);
+    --stridePink: #e50571;
+    --infiniteblue: #0dcaf0;
+    --infinitered: #dc3545;
+}
+
+/* Designing the horizontal line */
+body hr {
+    border: dotted 8px;
+    border-color: var(--icons);
+    border-bottom: none;
+    width: 4%;
+    margin: 100px auto;
+}
+
+
+/* Header container */
+.container-fluid {
+    padding-bottom: 150px;
+}
+
+/* Nav Bar */
+.navbar {
+    padding-bottom: 4rem;
+    background-color: var(--blueback);
+}
+
+
+.nav-item {
+    padding: 0 20px;
+}
+
+ul .nav-link {
+    font-size: 1.3rem;
+    color: var(--textoff);
+}
+
+.navbar a:hover {
+    color: var(--mustard);
+    cursor: pointer;
+}
+
+/* Targetting Logo/Brand */
+nav .navbar-brand {
+    color: var(--textoff);
+    font-weight: 600;
+    font-size: 40px;
+
+}
+
+
+/* Toggler button */
+.container-fluid button {
+    color: var(--textoff);
+}
+
+.row h1 {
+    font-family: 'Raleway', sans-serif;
+    font-size: 6rem;
+    font-weight: 500;
+    line-height: 1.5;
+    color: var(--plain-text);
+}
+
+.row h3 {
+    font-size: 3rem;
+    line-height: 1.5;
+    color: var(--plain-text);
+    font-family: 'Raleway', sans-serif;
+
+
+}
+
+.row p {
+
+    color: var(--plain-text);
+    font-family: 'Raleway', sans-serif;
+    text-align: justify;
+    padding: 30px 0;
+    font-size: 1.2rem;
+
+
+}
+
+
+/* Targeting Home Image &  */
+
+
+
+.home-img {
+    display: flex;
+    justify-content: center;
+
+}
+
+.home-img img {
+    max-width: 100%;
+}
+
+.row .home-profile {
+    max-width: 770px;
+    color: var(--plain-text);
+}
+
+/* TECH SKILLS Section */
+
+#skills {
+    color: var(--icons);
+    padding: 5px;
+
+}
+
+
+
+.feature-box i {
+    font-size: 4rem;
+
+}
+
+.feature-box i:hover {
+
+    box-shadow: 0 0 20px var(--mustard);
+
+
+}
+
+
+
+
+
+/* ABOUT ME section*/
+
+#aboutMe {
+    background-color: var(--mustard);
+}
+
+
+.profile {
+    color: var(--plain-text);
+    border-radius: 10px;
+    text-align: justify;
+    padding: 30px 0;
+    font-size: 1.2rem;
+
+
+}
+
+.profile h2 {
+    color: var(--plain-text);
+    text-align: center;
+    font-size: 3rem;
+    margin: 35px 0 0 0;
+}
+
+/* To justify text on intro paragraph. Adjusting the width will change the position of the text to the left. This will be readjusted using margin auto */
+.intro {
+    width: 90%;
+    margin: auto;
+}
+
+/* aboutme image */
+.travel img {
+    max-width: 100%;
+    border-radius: 10px;
+}
+
+
+
+
+
+/* Projects */
+
+#projects h2 {
+    margin-bottom: 5%;
+    color: var(--plain-text);
+    text-align: center;
+    font-size: 3rem;
+
+}
+
+.proGallery {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+
+}
+
+.proCard {
+    width: 300px;
+    height: 300px;
+    display: block;
+    text-align: center;
+    border-radius: 15px;
+
+}
+
+.proCard i {
+    font-size: 12rem;
+    background-color: var(--stridePink);
+    border-radius: 15%;
+    color: white;
+}
+
+.proCard i:hover {
+    background-color: var(--mustard);
+}
+
+
+.proCard p {
+    background-color: var(--greybg);
+    color: var(--blueback);
+    margin-top: 20px;
+    border-radius: 15px;
+    padding: 0;
+    font-family: 'Raleway', sans-serif;
+
+}
+
+.proCard p .spanh4 {
+    font-size: 22px;
+}
+
+
+
+/* Contact Me */
+
+#contactMe {
+    width: 75%;
+    margin: auto;
+}
+
+
+#contactMe h2 {
+    margin-bottom: 5%;
+    color: var(--plain-text);
+    text-align: center;
+    font-size: 3rem;
+}
+
+
+.form-box {
+    background-color: var(--greybg);
+    color: var(--plain-text);
+    margin: 5px 60px 5px 60px;
+    border-radius: 10px;
+    text-align: center;
+    padding: 50px 20px;
+    box-shadow: 0px 0px 9px 0px grey;
+
+}
+
+.form-box img {
+    height: 150px;
+    width: 300px;
+    padding: 0;
+}
+
+.form-box .btn {
+    -webkit-border-radius: 13;
+    -moz-border-radius: 13;
+    border-radius: 13px;
+    font-family: 'Raleway', sans-serif;
+    color: #ffffff;
+    font-size: 20px;
+    background: var(--blueback);
+    padding: 10px 20px 10px 20px;
+    border: solid #adcbde 3px;
+    text-decoration: none;
+}
+
+.form-box .btn:hover {
+    background: var(--mustard);
+    text-decoration: none;
+}
+
+
+
+/* Footer */
+
+#bottom-container {
+    background-color: var(--blueback);
+    border: 2px solid;
+    text-align: center;
+    color: var(--textoff);
+
+
+}
+
+/* Social media icons */
+
+.social-media a {
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    background: transparent;
+    border: 2px solid var(--textoff);
+    border-radius: 50%;
+    font-size: 20px;
+    color: var(--textoff);
+    text-decoration: none;
+    margin: 5px 10px 5px 5px;
+}
+
+.social-media a:hover {
+    color: var(--mustard);
+    box-shadow: 0 0 20px burlywood;
+
+}
